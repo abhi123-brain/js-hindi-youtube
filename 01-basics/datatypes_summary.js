@@ -36,3 +36,23 @@ const myFunction = function(){
 
 console.log(typeof myFunction);
 console.log(typeof hero);
+
+// ************************************************************
+
+let myYoutubeName = "abhishekdotcom"
+
+let anotherName = myYoutubeName
+
+anotherName = "chaiaurcode"
+console.log(anotherName);
+
+let userOne ={
+    email:"qwert@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email="asdf@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
